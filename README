@@ -1,0 +1,4 @@
+CL API to compute, given a scale defined in terms of intervals, the notes starting from a given root
+It also has the ability to export the generated scale to the ABC music notation format to generate a staff in PostScript format
+
+NB: Dates back to 2010 and not tested since

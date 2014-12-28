@@ -1,0 +1,45 @@
+;;;; constants.lisp
+
+(in-package scale-calculator)
+
+;; Pitches
+(defconstant +C+ 0)
+(defconstant +D+ 1)
+(defconstant +E+ 2)
+(defconstant +F+ 3)
+(defconstant +G+ 4)
+(defconstant +A+ 5)
+(defconstant +B+ 6)
+
+;; Accidentals
+(defconstant +natural+ 0)
+(defconstant +flat+ 1)
+(defconstant +sharp+ 2)
+
+;; Intervals
+(defconstant +unison+             0)
+(defconstant +diminished-second+  0)
+(defconstant +chromatic-semitone+ 0.5)
+(defconstant +minor-second+       0.5)
+(defconstant +major-second+       1)
+(defconstant +diminished-third+   1)
+(defconstant +augmented-second+   1.5)
+(defconstant +minor-third+        1.5)
+(defconstant +major-third+        2)
+(defconstant +diminished-fourth+  2)
+(defconstant +augmented-third+    2.5)
+(defconstant +perfect-fourth+     2.5)
+(defconstant +augmented-fourth+   3)
+(defconstant +diminished-fifth+   3)
+(defconstant +perfect-fifth+      3.5)
+(defconstant +diminished-sixth+   3.5)
+(defconstant +augmented-fifth+    4)
+(defconstant +minor-six+          4)
+(defconstant +major-six+          4.5)
+(defconstant +diminished-seven+   4.5)
+(defconstant +augmented-six+      5)
+(defconstant +minor-seventh+      5)
+(defconstant +major-seventh+      5.5)
+(defconstant +diminished-octave+  5.5)
+(defconstant +augmented-seventh+  6)
+(defconstant +octave+             6)
